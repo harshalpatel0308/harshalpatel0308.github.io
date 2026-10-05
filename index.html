@@ -86,10 +86,10 @@ footer{padding:24px clamp(20px,5vw,72px);font-size:.85rem;color:var(--grey);back
 .trk{display:inline-block;white-space:nowrap;will-change:transform}
 @media (prefers-reduced-motion:reduce){.intro{display:none!important}.js h2.big,.js .work h3{clip-path:none;transform:none}.work{position:static!important}}
 
-.prof{position:absolute;left:0;bottom:0;height:min(100svh,1100px);aspect-ratio:1;max-width:100vw;z-index:0;opacity:0;animation:lightOn 2.8s ease 1.7s forwards}
+.prof{position:absolute;left:-50px;bottom:0;height:min(100svh,1100px);aspect-ratio:1;max-width:100vw;z-index:0;opacity:0;animation:lightOn 2.8s ease 1.7s forwards}
 .prof img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;-webkit-mask-image:linear-gradient(90deg,#000 0,#000 74%,transparent 100%);mask-image:linear-gradient(90deg,#000 0,#000 74%,transparent 100%)}
 @keyframes lightOn{to{opacity:1}}
-@media (max-width:760px){.prof{height:56svh}}
+
 @media (prefers-reduced-motion:reduce){.prof{animation:none;opacity:1}}
 .hero nav{position:relative;z-index:2}
 .hero h1,.hero p{position:relative;z-index:1;mix-blend-mode:difference}
